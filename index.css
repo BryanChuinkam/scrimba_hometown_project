@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: 'Happy Monkey', system-ui;
-  font-family: 'Spinnaker', sans-serif;
+  /* font-family: 'Spinnaker', sans-serif; */
   margin: 0;
   padding: 0;
   display: flex;
@@ -69,6 +69,7 @@ main h1 {
 .activities-img:hover {
   filter: brightness(0.8); /* Darken the image */
   transform: scale(1.1); /* Scale the image to 110% on hover */
+  animation-timing-function: ease-in;
 }
 
 .activities-paragraph {
